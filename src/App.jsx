@@ -26,10 +26,10 @@ function App() {
     <div className="App">
       <nav className='principal'>
         <div className='img-principal'>
-           <img src="../src/assets/image 3.svg" alt="" />
+           <img src="../src/assets/image 3.svg" alt="main image Rick and Morty" />
         </div>
         <div className='title'>
-          <img src="../src/assets/image 2.svg" alt="" />
+          <img src="../src/assets/image 2.svg" alt="title Rick and Morty" />
         </div>
       </nav>
       <div className='content-info_location'>
