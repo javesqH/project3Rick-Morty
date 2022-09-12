@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#ECE806;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-principal img {
+  max-height: 372px;
+  max-width: 1349.5px;
+}
+
+.principal {
+  padding-bottom: 348px;
+  position: relative;
+}
+
+.img-principal {
+  position: absolute;
+}
+
+.title {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 90px;
+}
+
+.info-location {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #102332;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.info-location li {
+  color: white;
+}
+
+.li-name span,
+.li-type span,
+.li-dimension span,
+.li-population span {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ECE806;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+.search input {
+  width: 300px;
+  height: 35px;
+  background-color: #AFC067;
+}
+
+.search button {
+  width: 150px;
+  border: 1px;
+  background-color: #1483F4;
+}
+
+.search button:hover {
+  cursor: pointer;
+}
+
+.content-residents {
+  display:inline-block;
+  
+  }
+
+.residents {
+  list-style: none;
+  padding: 74px; 
+  color: rgb(53, 9, 212);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.res-li-name span,
+.res-li-status span,
+.res-li-origin span,
+.res-li-episode span {
+  color: #2c1a17;
+}
